@@ -3,7 +3,7 @@ def main():
 
     playing = input('Do you want to play? ')
 
-    if playing.lower() != 'yes':
+    if playing.lower() == ("yes" , "y"):
         quit()
     print("Okay! Let's play :)")
     score = 0
@@ -36,8 +36,7 @@ def main():
     else:
         print("Incorrect")
 
-    print(f"You got {score} correct")
-    print(f"You scored {round((score/4) * 100)}%")
+    print(f"You got {score} correct and scored {round((score/4) * 100)}%")
 
 if __name__ == "__main__":
     main()
