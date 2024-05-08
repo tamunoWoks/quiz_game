@@ -27,7 +27,7 @@ def main():
     
     answer = input("How many minutes constitute a half? ").lower()
     if answer == ("45", "45mins", '45 minutes'):
-        print("Correct")
+        print("Co"45"rrect")
     else:
         print("Incorrect")
 
